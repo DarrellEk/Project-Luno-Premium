@@ -112,7 +112,7 @@ async function printmenu(){
         console.log(`BTCMYR price on LUNO:          MYR ${lunoBTCMYR}`)
         console.log(`USDMYR:                            ${currency}`)
         console.log(`BTCUSD price on LUNO:          USD ${lunoBTCUSD}`)
-        console.log(`BTCMYR price on Binance:       USD ${binanceBTCUSD}`)
+        console.log(`BTCUSD price on Binance:       USD ${binanceBTCUSD}`)
         console.log(`Price Difference:              USD ${difference}`)
         console.log(`Luno Premium:                      ${premium}%`)
     } catch (error){
